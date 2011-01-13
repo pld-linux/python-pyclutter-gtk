@@ -33,8 +33,8 @@ Python bindings for the clutter-gtk integration library.
 Dowiązania Pythona do biblioteki integrującej clutter-gtk.
 
 %package devel
-Summary:	Development files for Cutter-GStremer Python binding
-Summary(pl.UTF-8):	Pliki programistyczne wiązania Pythona do Clutter-GStreamer
+Summary:	Development files for Clutter-GTK Python binding
+Summary(pl.UTF-8):	Pliki programistyczne wiązania Pythona do Clutter-GTK
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	clutter-devel >= 1.0.0
@@ -43,10 +43,10 @@ Requires:	python-pyclutter-devel >= 1.0.0
 Requires:	python-pygtk-devel >= 2:2.8.0
 
 %description devel
-Development files for Cutter-GStremer Python binding.
+Development files for Clutter-GTK Python binding.
 
 %description devel -l pl.UTF-8
-Pliki programistyczne wiązania Pythona do Clutter-GStreamer.
+Pliki programistyczne wiązania Pythona do Clutter-GTK.
 
 %prep
 %setup -q -n pyclutter-gtk-%{version}
